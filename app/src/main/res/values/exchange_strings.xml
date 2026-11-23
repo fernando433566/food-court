@@ -1,0 +1,6 @@
+<resources>
+    <string name="code_service_name">Food Court · Emisor de fidelización</string>
+    <string name="code_service_description">A petición de un dispositivo emparejado, muestra los QR de socio de MyMcDonald’s, Taco Bell y Club·by, registra tickets de Taco Bell y Amici, sincroniza Amici y las promociones de Club·by y abre sus lectores. Enciende el teléfono si no tiene bloqueo seguro y requiere las sesiones iniciadas.</string>
+    <string name="amici_service_name">Food Court · Amici</string>
+    <string name="amici_service_description">Para el móvil que tiene Amici: cuando lo pides en Food Court, lee tu nivel, tus cupones y sus códigos, o abre el lector oficial de tickets. Solo actúa sobre La Tagliatella.</string>
+</resources>

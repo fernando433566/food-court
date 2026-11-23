@@ -1,0 +1,17 @@
+# Build output
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+
+# Release signing (never commit keys or passwords)
+keystore.properties
+*.jks
+*.keystore
+
+# Compiled APKs are published as GitHub releases, not committed
+release/
+*.apk
+*.aab
