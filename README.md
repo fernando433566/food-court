@@ -26,7 +26,7 @@ El receptor se conecta al emisor de cualquiera de estas formas:
 |---|---|---|
 | **Red local** | IP local del emisor, por ejemplo `192.168.1.50` | Los dos dispositivos en la misma red. Puerto TCP 38147. |
 | **Netbird** (o Tailscale) | IP `100.x.y.z` o nombre DNS del emisor | Los dos dispositivos conectados a la misma red Netbird. Puerto TCP 38147. |
-| **Enlace HTTPS** | `https://tu-dominio` | Un túnel o proxy inverso (Cloudflare Tunnel, Caddy, nginx…) que publique `http://localhost:38148` del emisor. Con Cloudflare Tunnel, el hostname debe usar el servicio **HTTP** `localhost:38148`. |
+| **Enlace HTTPS** | `https://tu-dominio` | Un túnel o proxy inverso (Cloudflare Tunnel, Caddy, nginx…) que publique `http://localhost:38148` del emisor. Con Cloudflare Tunnel usado con Termux, el hostname debe usar el servicio **HTTP** `localhost:38148`. |
 
 Todas las peticiones viajan cifradas de extremo a extremo con la clave de emparejamiento (HMAC-SHA256 y AES-GCM), también a través de HTTPS. El emisor solo atiende a receptores que conocen su clave.
 
